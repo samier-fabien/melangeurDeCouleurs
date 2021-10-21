@@ -16,6 +16,7 @@ public class App extends Application {
 
         primaryStage.setTitle("Melangeur de couleurs");
         primaryStage.setScene(scene);
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
 
